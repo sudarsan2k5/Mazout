@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message BatteryStatus {
+  float voltage = 1;
+  int32 charge_percentage = 2;
+}
